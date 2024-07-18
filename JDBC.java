@@ -8,11 +8,11 @@ public class JDBCAssessment2 {
 		try {
 			Scanner scanner = new Scanner(System.in);
 			// Establish a connection
-			String host = "jdbc:mysql://akhan28.webhosting1.eeecs.qub.ac.uk:";
+			String host = "jdbc:mysql://sample_hostaddress:";
 			String port = "3306/";
-			String DB = " akhan28"; // Database name
-			String username = "akhan28"; // php username
-			String password = "zZP2klCtthX0szgr"; // php password
+			String DB = " sample_name"; // Database name
+			String username = "sample_username"; // php username
+			String password = "sample_password"; // php password
 			String urlDB = host + port + DB; // creating url string
 			Connection con = DriverManager.getConnection(urlDB, username, password); // establishing connection
 
